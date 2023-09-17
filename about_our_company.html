@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freight Transportation</title>
+    <title>About Our Company</title>
+    <style>
+       main p {
+           color: #ffffff; /* Replace with your desired color code */
+       }
+       h1 {
+           color: #ffffff; /* Replace with your desired color code */
+       }
+       p {
+           color: #ffffff; /* Replace with your desired color code */
+       }
+       .menu-item {
+           color: #ffffff; /* Replace with your desired color code */
+       }
+       /* Basic CSS styles, you can customize these */
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1612887872_27-p-zadnii-fon-krasno-chernii-33.jpg'); /* Replace 'your-background-image.jpg' with your image URL */
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-attachment: fixed; /* Ensures the background image remains fixed */
+       }
+
+       .container {
+           display: flex;
+       }
+
+       .side-menu {
+           width: 250px;
+           background-color: #000000;
+           color: #ffffff;
+           padding: 20px;
+           box-shadow: 2px 0px 5px rgba(255, 255, 255, 0.5);
+       }
+
+       .content {
+           flex: 1;
+           padding: 20px;
+       }
+
+       header {
+           background-color: rgba(0, 0, 0, 0.7);
+           color: #fff;
+           text-align: center;
+           padding: 20px 0;
+       }
+
+       header h1 {
+           margin: 0;
+           padding: 0;
+           font-size: 36px;
+       }
+
+       nav ul {
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+       }
+
+       nav li {
+           margin-bottom: 10px;
+       }
+
+       main {
+           padding: 20px;
+       }
+
+       footer {
+           background-color: rgba(0, 0, 0, 0.7);
+           color: #fff;
+           text-align: center;
+           padding: 10px;
+       }
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Сибирские перевозки</h1>
+    </header>
+    <div class="container">
+        <nav class="side-menu">
+            <ul>
+                <li><a href="home.html" target="content">Главная</a></li>
+                <li><a href="about_our_company.html" target="content">О нашей компаний</a></li>
+                <li><a href="transportation_service.html" target="content">Услуги перевозки</a></li>
+                <li><a href="reviews.html" target="content">Отзывы</a></li>
+                <li><a href="our_fleet.html"target="content">Наш автопарк</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <main>
+                <h1>О нашей компаний</h1>
+                <p>Наша компания на рынке с **** и с тех пор мы осуществили не одну удачную перевозу,</p>
+                <p>и исполнила заказы тысячи наших сограждан. Мы расширялись и становились лучше для вас</p>
+                <img src="https://media.tenor.com/Xa_U1xQ2aKEAAAAd/truck-drift.gif">
+            </main>
+        
+        </div>
+        </div>
+        
+        <footer>
+            <div class="contact-info">
+                <p>Контакты:</p>
+                <p>телефон: *****</p>
+                <p>Email: ****@****.com</p>
+            </div>
+            &copy; 2023 Siberian Transportation. All rights reserved.
+        </footer>
+        <script>
+            const sideMenu = document.querySelector('.side-menu');
+            const menuToggle = document.querySelector('.menu-toggle');
+    
+            menuToggle.addEventListener('click', () => {
+                sideMenu.classList.toggle('open');
+            });
+        </script>
+</body>
+</html>
